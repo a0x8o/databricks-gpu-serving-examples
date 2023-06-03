@@ -1,4 +1,5 @@
 # Databricks notebook source
+# "This notebook demonstrates the process of deploying a 10B+ LLM on a single A10 GPU. In order to achieve this, the model needs to be quantized, thereby optimizing its memory footprint to fit within the 24GB GPU memory capacity of a single A10.
 !pip install --upgrade torch
 !pip install accelerate
 !pip install bitsandbytes
