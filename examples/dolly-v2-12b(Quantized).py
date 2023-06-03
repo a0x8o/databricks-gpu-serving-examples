@@ -1,6 +1,6 @@
 # Databricks notebook source
 !pip install --upgrade torch
-!pip install --upgrade accelerate
+!pip install accelerate
 !pip install bitsandbytes
 !pip install pynvml
 import pandas as pd
